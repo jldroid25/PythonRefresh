@@ -32,9 +32,7 @@ replacements you want to make using the values inside format()
 print("Mohammed has {} balloons".format(27))
 
 animal = "dog"
-
 action = "bite"
-
 print("Does your {} {}?".format(animal, action))
 
 maria_string = "Maria loves {} and {}"
@@ -65,16 +63,16 @@ the maxsplit argument provides the maximum number of splits.
 '''
 new_str = "The cow jumped over the moon."
 new_str.split()
-
+print(new_str.split() , "\n")
 #['The', 'cow', 'jumped', 'over', 'the', 'moon.']
 
 
-new_str.split(' ', 3)
+print(new_str.split(' ', 3) , "\n")
 #['The', 'cow', 'jumped', 'over the moon.']
 
 new_str.split('.')
 #['The cow jumped over the moon', '']
 
 new_str.split(None, 3)
-#'The', 'cow', 'jumped', 'over the moon.']
+#['The', 'cow', 'jumped', 'over the moon.']
 
