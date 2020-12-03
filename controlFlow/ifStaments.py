@@ -1,3 +1,4 @@
+
 '''
 print("\n\n")
 
@@ -6,9 +7,8 @@ bank_balance = 20
 phone_balance = 4
 
 print(phone_balance, bank_balance)
-
-#here we have if-statement, condition, follow by colon.
-#This is is a boolean expression that evaluate to either true or false
+#here we have if-statement, condition, follow by colon. 
+# This is is a boolean expression that evaluate to either true or false
 if phone_balance < 5:
   #block of code to execute if condition is true
   phone_balance += 10
@@ -51,3 +51,18 @@ else:
       print("Unpredictable season")
 
 print("\n\n")
+
+# Complex Boolean expression by mixing multiples operators & logical operators.
+unsubscribed = "no"
+location = "CAN"
+
+if(not unsubscribed) and (location == "USA" or location == "CAN"):
+  print("send email")
+
+  # -----Bad Conditional statement you should never run. ------------
+
+  # " while True" this will always be true
+  # " if False " this will always be false , condition will never accur
+
+  # You can use the "not" operator if you wanna check a boolean is false.
+
