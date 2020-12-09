@@ -42,7 +42,7 @@ while True:
 
     print('\nAttempted Input')
 
-'''
+
 
 # The "finally clause  is used to run a code we want to run before try-block
 # exit the code 
@@ -61,3 +61,32 @@ while True:
 
     finally:
         print('\nAttempted Input')
+
+
+# Accessing Error Messages
+# When you handle an exception, you can still access its error message like this:
+
+try:
+    # add some code here
+except ZeroDivisionError as e:
+    # add more code here
+    print("ZeroDivisionError occurred: {}".format(e))
+
+# this will print "ZeroDivisionError occurred: integer division or modulo by zero"
+
+
+
+# So you can still access error messages, even if you handle them to keep your 
+# program from crashing! If you don't have a specific error you're handling, 
+# you can still access the message like this:
+try:
+    # some code here
+    int(input("enter a number: "))
+
+except Exception as e:
+    
+    # some code here
+    print("Exception occured: {}".format(e)) 
+#Exception is just the base class for all built-in exceptions. 
+# You can learn more about Python's documentation.
+'''
