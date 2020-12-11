@@ -65,6 +65,7 @@ while title of page isn't 'Philosophy' and we have not discovered a cycle:
 '''
 start_url = "https://en.wikipedia.org/wiki/Special:Random"
 
+
 target_url = "https://en.wikipedia.org/wiki/Philosophy"
 article_chain = [start_url]
 
