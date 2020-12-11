@@ -16,7 +16,7 @@ class book:
 b1 = book()  
 
 #---------Another class example 
-class stadiagames:
+class Stadiagames:
 
     # Let's override the init function
     '''
@@ -28,10 +28,10 @@ class stadiagames:
         self.title = title
 
 # Create instance of book class
-firstgame = stadiagames("Brave New World") 
-secondgame= stadiagames("War on Peace")
-thirdgame = stadiagames("Death by Daylight")
-fourthgame= stadiagames("Destiny 2")      
+firstgame = Stadiagames("Brave New World") 
+secondgame= Stadiagames("War on Peace")
+thirdgame = Stadiagames("Death by Daylight")
+fourthgame= Stadiagames("Destiny 2")      
 
 # Lets access the value of the properties with the dot notation
 
