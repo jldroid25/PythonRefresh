@@ -27,7 +27,7 @@ print(" REPEAT ME 5 TIMES \n" * 5 )
 
 # ========================================
 
-# Python built-in length function tells us how the length of a string.
+# Python built-in length function tells us the length of a string.
 
 print(len(singlequote_wraps_doublequotes))
 

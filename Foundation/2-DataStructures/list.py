@@ -2,6 +2,7 @@
 
 ''' Data structures are containers that organize 
 and group data types together in different ways. 
+
 A list is one of the most common and basic data structures in Python.
 
 - So A List is a data type for mutable ordered sequences of elements.
@@ -36,6 +37,7 @@ print(months[-6])
 
 
 print("\n\nA list with any mix and match of the data type:")
+# We mixing integer, string & boolean in our list
 list_of_random_things = [1, 2, 3,  4, ' mix with a string ', True]
 print(list_of_random_things , "\n")
 

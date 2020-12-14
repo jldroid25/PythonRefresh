@@ -9,7 +9,7 @@ index is inclusive and the upper index is exclusive.
 list_of_random_things = [1, 3.4, 'a string', True]
 # start slicing at 2nd element of list upto 3rd element
 
-print("\n start slicing at 2nd element of list upto 3rd element\t:", 
+print("\n start slicing at 2nd element of list up to 3rd element\t:", 
 list_of_random_things[1:2] , "\n\n") 
 
 #If you know that you want to start at the beginning, 

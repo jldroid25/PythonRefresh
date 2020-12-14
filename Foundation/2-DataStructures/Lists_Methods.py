@@ -27,11 +27,11 @@ print(sorted(highest_salary, reverse=True))
 
 # Useful Functions for Lists II
 
-# join() method oin is a string method that takes a list of strings as an argument,
+# join() method  is a string method that takes a list of strings as an argument,
 #  and returns a string consisting of the list elements joined by a separator string.
 # Failure to add a seperator will cause unexpected result
-
-new_str = "\n" .join(['Kiera', 'Jade', 'Rubic', 'Shania'])
+          #Separator "\t".join()
+new_str = "\t" .join(['Kiera', 'Jade', 'Rubic', 'Shania'])
 print(new_str)
 
 
