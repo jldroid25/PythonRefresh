@@ -7,13 +7,13 @@ reversed_string = ""
 S = Stack.Stack()
 
 # Your solution Here
-#S.push(string)
+for char in string:
+    S.push(char)
 
-while S.is_empty():
-    S.push(string)
-    S.peek()
-    print(S.peek())
+while not S.is_empty():
+    reversed_string += S.pop()
 
-
-
+print("\n\n")
 print(reversed_string)
+
+print("\n\n")
